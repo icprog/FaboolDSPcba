@@ -1,0 +1,2715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/work/FaboolDSPcba/LaserDSBoard/LaserDSBoard.sch</source>
+    <date>2018/02/19 9:45:25</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LaserDSBoard</title>
+        <company>smartDIYs Co.,Ltd.</company>
+        <rev>1.0.0</rev>
+        <date>21 dec 2017</date>
+        <source>LaserDSBoard.sch</source>
+        <comment number="1" value="http://www.smartdiys.com/"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D4">
+      <value>5V</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="LED-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA7EF</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA7F5</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA801</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>12V</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="LED-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA807</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-cache" part="Csmall"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA81C</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-cache" part="Csmall"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA822</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>X VREF</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm</footprint>
+      <libsource lib="FE" part="VREF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA840</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Y VREF</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm</footprint>
+      <libsource lib="FE" part="VREF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA846</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA852</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA858</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>2k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA865</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA86B</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA871</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>100u</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <libsource lib="FE" part="C_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA8D9</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>100u</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <libsource lib="FE" part="C_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA8DF</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA901</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA907</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>0R1</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA926</tstamp>
+    </comp>
+    <comp ref="R75">
+      <value>0R1</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA92C</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>0u22</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA932</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA938</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA93E</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA944</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>0u22</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA94A</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA95C</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA976</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>0u22</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA988</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA98E</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA994</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA99A</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>0u22</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA9A0</tstamp>
+    </comp>
+    <comp ref="R76">
+      <value>0R1</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA9A6</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>0R1</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA9AC</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D Stop</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="LED-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA9BE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA9D3</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>USB</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="LED-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA9E9</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB</value>
+      <footprint>mylib:USB_B</footprint>
+      <libsource lib="LaserDSBoard-cache" part="USB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEAA33</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>X MOTOR</value>
+      <footprint>mylib:VH-4</footprint>
+      <libsource lib="FE" part="CONN4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEAA4B</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>Y1 MOTOR</value>
+      <footprint>mylib:VH-4</footprint>
+      <libsource lib="FE" part="CONN4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEAA51</tstamp>
+    </comp>
+    <comp ref="J16">
+      <value>Y2 MOTOR</value>
+      <footprint>mylib:VH-4</footprint>
+      <libsource lib="FE" part="CONN4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEAA57</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEACB8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>STM32F20XR</value>
+      <footprint>Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm</footprint>
+      <libsource lib="FE" part="STM32F20XR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB14F</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>9HT10-32.768KDZY-T</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="Frequency">32.768kHz</field>
+      </fields>
+      <libsource lib="LaserDSBoard-rescue" part="CRYSTAL-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB1AD</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>20p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB1C5</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>20p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB1D7</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB1EF</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB201</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB213</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB219</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB21F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>JTAG</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x05_Pitch1.00mm</footprint>
+      <libsource lib="FE" part="CONN_JTAG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB228</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB260</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>7B-25.000MAAJ-T</value>
+      <footprint>Oscillators:Oscillator_SMD_Fordahl_DFAS15-4pin_5.0x3.2mm</footprint>
+      <fields>
+        <field name="Frequency">25MHz</field>
+      </fields>
+      <libsource lib="FE" part="CRYSTAL_4PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEC198</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>22R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEE32C</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>22R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEE33E</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CE9D48</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CE9D61</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CE9D67</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB603</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="CP1-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB620</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>LI0603G221R-10</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Frequency">100MHz</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEB62F</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>DHT-1163S</value>
+      <footprint>mylib:DHT-1163S</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CF02CF</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CF02DC</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CF0F9B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2u2</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CF22C7</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>2u2</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CF22E3</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CF9EFD</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DE8B17</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56DE961B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5726C39C</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SSSS213202</value>
+      <footprint>mylib:SSSS213202</footprint>
+      <libsource lib="device" part="SWITCH_INV"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5726C615</tstamp>
+    </comp>
+    <comp ref="VR1">
+      <value>CG0603MLC-05E</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="VR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BEC6D7</tstamp>
+    </comp>
+    <comp ref="VR2">
+      <value>CG0603MLC-05E</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="VR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BEC78C</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>47R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C29F42</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C2AC3A</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>390R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C2AC40</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>LASER P</value>
+      <footprint>mylib:S3B-XH-SM4-TB</footprint>
+      <libsource lib="FE" part="CONN2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C2B94C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A34C018</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A34C01E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A34C049</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A34C04F</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3574D7</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>3.3V</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="LED-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3574DD</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A358B85</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A358B97</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A358B9D</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>ADUM1250</value>
+      <footprint>mylib:ADUM1250</footprint>
+      <libsource lib="FE" part="ADUM1250"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A358BB0</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35A6A1</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A353B3E</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A353B44</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>ADUM1250</value>
+      <footprint>mylib:ADUM1250</footprint>
+      <libsource lib="FE" part="ADUM1250"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A353B4A</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A353B5C</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>MCP3425</value>
+      <footprint>mylib:MCP3425</footprint>
+      <libsource lib="FE" part="MCP3425"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3541BE</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A354834</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A354B5E</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A354B64</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3561C0</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="FE" part="R_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3561C6</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35A041</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35A047</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35B731</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35B737</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35B74E</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35B754</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35E2A6</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35E2AC</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35E2C3</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35E2C9</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35E2E0</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35E2E6</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A354904</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>X LIMIT1</value>
+      <footprint>mylib:S3B-XH-SM4-TB</footprint>
+      <libsource lib="FE" part="CONN3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7B96E2</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>X LIMIT2</value>
+      <footprint>mylib:S3B-XH-SM4-TB</footprint>
+      <libsource lib="FE" part="CONN3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7BB8D3</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Y LIMIT1</value>
+      <footprint>mylib:S3B-XH-SM4-TB</footprint>
+      <libsource lib="FE" part="CONN3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7BBADF</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Y LIMIT2</value>
+      <footprint>mylib:S3B-XH-SM4-TB</footprint>
+      <libsource lib="FE" part="CONN3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7BBCEA</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7CD932</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7CFAC5</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7D011E</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7D0344</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7DA5C0</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7DE331</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7DE544</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7DE760</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7F3F8A</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>X1 Stop</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="LED-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7F41D8</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>X2 Stop</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="LED-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7FC4C0</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7FC6EC</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7FC917</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7FCB45</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>Y1 Stop</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="LED-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7FCD76</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>Y2 Stop</value>
+      <footprint>Diodes_SMD:D_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="LED-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7FCFA8</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A824FD0</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A824FD6</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A824FDC</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A824FE2</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A83414A</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8343A4</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8345DB</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A834815</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4k7</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A85E8DC</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8643E7</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8671DB</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A885D6C</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>D SWITCH</value>
+      <footprint>mylib:S3B-XH-SM4-TB</footprint>
+      <libsource lib="FE" part="CONN3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A892CFF</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="FE" part="C_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8A227D</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>WATER FLOW</value>
+      <footprint>mylib:S3B-XH-SM4-TB</footprint>
+      <libsource lib="FE" part="CONN3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A353B1D</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8C641F</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8DAF9B</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-cache" part="Csmall"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9909E5</tstamp>
+    </comp>
+    <comp ref="J17">
+      <value>Y VREF</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm</footprint>
+      <libsource lib="FE" part="VREF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9909EB</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9909F1</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9909F7</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>100u</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <libsource lib="FE" part="C_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9909FD</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>0R1</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A990A04</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>0R1</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A990A0A</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>0u22</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A990A10</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A990A16</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A990A1C</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A990A22</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>0u22</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A990A28</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A990A2E</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>LASER</value>
+      <footprint>mylib:S3B-XH-SM4-TB</footprint>
+      <libsource lib="FE" part="CONN3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9B8B22</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>220R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9B8B28</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TLP2355</value>
+      <footprint>mylib:TLP2355</footprint>
+      <libsource lib="FE" part="TLP2355"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9B8B34</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>TPL0401A</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <libsource lib="LaserDSBoard-cache" part="TPL0401X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7BBB36</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>TPL0401B</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <libsource lib="LaserDSBoard-cache" part="TPL0401X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7BF7E6</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56CEA8C7</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0u1</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A7D0A2E</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>BNX024H01</value>
+      <footprint>mylib:BNX024H01</footprint>
+      <libsource lib="LaserDSBoard-cache" part="BNX024H01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A80D58A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100u</value>
+      <footprint>Capacitors_SMD:CP_Elec_6.3x7.7</footprint>
+      <libsource lib="FE" part="C_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57C500C9</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8243E8</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>CP-10</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A92E5A4</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>CP-10</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A92F129</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>CP-10</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A92F363</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>CP-10</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A92F59C</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <libsource lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AAA52C3</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>POWER IN</value>
+      <footprint>mylib:VH-4</footprint>
+      <libsource lib="FE" part="CONN4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A86CF71</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LD1117S</value>
+      <footprint>mylib:LD1117S33TR</footprint>
+      <libsource lib="FE" part="LD1117S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8E64BC</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LD1117S</value>
+      <footprint>mylib:LD1117S33TR</footprint>
+      <libsource lib="FE" part="LD1117S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8E6CAD</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LD1117S</value>
+      <footprint>mylib:LD1117S33TR</footprint>
+      <libsource lib="FE" part="LD1117S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8E85D8</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>A4982SLPTR</value>
+      <footprint>mylib:A4982SLPTR</footprint>
+      <libsource lib="FE" part="A4982SLPTR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A901ED0</tstamp>
+    </comp>
+    <comp ref="U25">
+      <value>A4982SLPTR</value>
+      <footprint>mylib:A4982SLPTR</footprint>
+      <libsource lib="FE" part="A4982SLPTR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A905375</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>A4982SLPTR</value>
+      <footprint>mylib:A4982SLPTR</footprint>
+      <libsource lib="FE" part="A4982SLPTR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A909CF7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="FE" part="A4982SLPTR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">A4982SLPTR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CP1" type="passive"/>
+        <pin num="2" name="CP2" type="passive"/>
+        <pin num="3" name="VCP" type="passive"/>
+        <pin num="4" name="VREG" type="passive"/>
+        <pin num="5" name="MS1" type="input"/>
+        <pin num="6" name="MS2" type="input"/>
+        <pin num="7" name="SENSE2" type="power_out"/>
+        <pin num="8" name="OUT2A" type="power_out"/>
+        <pin num="9" name="OUT1A" type="power_out"/>
+        <pin num="10" name="SENSE1" type="power_out"/>
+        <pin num="11" name="STEP" type="input"/>
+        <pin num="12" name="REF" type="input"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="DIR" type="input"/>
+        <pin num="15" name="OUT1B" type="power_out"/>
+        <pin num="16" name="VBB1" type="power_in"/>
+        <pin num="17" name="SENSE1" type="power_out"/>
+        <pin num="18" name="OUT1A" type="power_out"/>
+        <pin num="19" name="GND_PAD" type="power_out"/>
+        <pin num="20" name="SENSE2" type="power_out"/>
+        <pin num="21" name="MS1" type="input"/>
+        <pin num="22" name="OUT2B" type="power_out"/>
+        <pin num="23" name="VCP" type="passive"/>
+        <pin num="24" name="/RESET" type="input"/>
+        <pin num="25" name="MS2" type="input"/>
+        <pin num="26" name="GND_PAD" type="power_in"/>
+        <pin num="27" name="CP1" type="passive"/>
+        <pin num="28" name="VDD" type="power_in"/>
+        <pin num="PAD" name="GND_PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="ADUM1250">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADUM1250</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="power_in"/>
+        <pin num="2" name="SDA1" type="passive"/>
+        <pin num="3" name="SCL1" type="passive"/>
+        <pin num="4" name="GND1" type="power_in"/>
+        <pin num="5" name="GND2" type="power_in"/>
+        <pin num="6" name="SCL2" type="passive"/>
+        <pin num="7" name="SDA2" type="passive"/>
+        <pin num="8" name="VDD2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LaserDSBoard-cache" part="BNX024H01">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">BNX024H01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="power_in"/>
+        <pin num="2" name="CB" type="power_out"/>
+        <pin num="3" name="PSG" type="power_in"/>
+        <pin num="4" name="CG" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="LaserDSBoard-rescue" part="C-RESCUE-LaserDSBoard">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-LaserDSBoard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="CONN2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="CONN3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="CONN4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="CONN_JTAG">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONN_JTAG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="TMS" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="TCK" type="BiDi"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="TDO" type="BiDi"/>
+        <pin num="7" name="NC/RTCK" type="passive"/>
+        <pin num="8" name="TDI" type="BiDi"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="*RST" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="LaserDSBoard-rescue" part="CP1-RESCUE-LaserDSBoard">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-RESCUE-LaserDSBoard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LaserDSBoard-rescue" part="CRYSTAL-RESCUE-LaserDSBoard">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL-RESCUE-LaserDSBoard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="CRYSTAL_4PIN">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CRYSTAL_4PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="C_POL">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_POL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="C_SMALL">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LaserDSBoard-cache" part="Csmall">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Csmall</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="LD1117S">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_out"/>
+        <pin num="3" name="IN" type="power_in"/>
+        <pin num="TAB" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LaserDSBoard-rescue" part="LED-RESCUE-LaserDSBoard">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-LaserDSBoard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="MCP3425">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP3425</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN+" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="output"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="VIN-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LaserDSBoard-rescue" part="R-RESCUE-LaserDSBoard">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-LaserDSBoard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="R_SMALL">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="STM32F20XR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F20XR</field>
+        <field name="Footprint">LQFP64</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PH0/OSC_IN" type="BiDi"/>
+        <pin num="6" name="PH1/OSC_OUT" type="BiDi"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0" type="BiDi"/>
+        <pin num="9" name="PC1" type="BiDi"/>
+        <pin num="10" name="PC2" type="BiDi"/>
+        <pin num="11" name="PC3" type="BiDi"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="passive"/>
+        <pin num="14" name="WKUP/PA0" type="BiDi"/>
+        <pin num="15" name="PA1" type="BiDi"/>
+        <pin num="16" name="PA2" type="BiDi"/>
+        <pin num="17" name="PA3" type="BiDi"/>
+        <pin num="18" name="VSS_4" type="power_in"/>
+        <pin num="19" name="VDD_4" type="power_in"/>
+        <pin num="20" name="PA4" type="BiDi"/>
+        <pin num="21" name="PA5" type="BiDi"/>
+        <pin num="22" name="PA6" type="BiDi"/>
+        <pin num="23" name="PA7" type="BiDi"/>
+        <pin num="24" name="PC4" type="BiDi"/>
+        <pin num="25" name="PC5" type="BiDi"/>
+        <pin num="26" name="PB0" type="BiDi"/>
+        <pin num="27" name="PB1" type="BiDi"/>
+        <pin num="28" name="PB2" type="BiDi"/>
+        <pin num="29" name="PB10" type="BiDi"/>
+        <pin num="30" name="PB11" type="BiDi"/>
+        <pin num="31" name="VCAP_1" type="passive"/>
+        <pin num="32" name="VDD_1" type="power_in"/>
+        <pin num="33" name="PB12" type="BiDi"/>
+        <pin num="34" name="PB13" type="BiDi"/>
+        <pin num="35" name="PB14" type="BiDi"/>
+        <pin num="36" name="PB15" type="BiDi"/>
+        <pin num="37" name="PC6" type="BiDi"/>
+        <pin num="38" name="PC7" type="BiDi"/>
+        <pin num="39" name="PC8" type="BiDi"/>
+        <pin num="40" name="PC9" type="BiDi"/>
+        <pin num="41" name="PA8" type="BiDi"/>
+        <pin num="42" name="PA9" type="BiDi"/>
+        <pin num="43" name="PA10" type="BiDi"/>
+        <pin num="44" name="PA11" type="BiDi"/>
+        <pin num="45" name="PA12" type="BiDi"/>
+        <pin num="46" name="JTMS/SWDIO/PA13" type="BiDi"/>
+        <pin num="47" name="VCAP_2" type="passive"/>
+        <pin num="48" name="VDD_2" type="power_in"/>
+        <pin num="49" name="JTCK/SWCLK/PA14" type="BiDi"/>
+        <pin num="50" name="JTDI/PA15" type="BiDi"/>
+        <pin num="51" name="PC10" type="BiDi"/>
+        <pin num="52" name="PC11" type="BiDi"/>
+        <pin num="53" name="PC12" type="BiDi"/>
+        <pin num="54" name="PD2" type="BiDi"/>
+        <pin num="55" name="JTDO/TRACESSW0/PB3" type="BiDi"/>
+        <pin num="56" name="NJTRST/PB4" type="BiDi"/>
+        <pin num="57" name="PB5" type="BiDi"/>
+        <pin num="58" name="PB6" type="BiDi"/>
+        <pin num="59" name="PB7" type="BiDi"/>
+        <pin num="60" name="BOOT0" type="BiDi"/>
+        <pin num="61" name="PB8" type="BiDi"/>
+        <pin num="62" name="PB9" type="BiDi"/>
+        <pin num="63" name="VSS_3" type="power_in"/>
+        <pin num="64" name="VDD_3" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SWITCH_INV">
+      <description>inverseur</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SWITCH_INV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">W</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="TLP2355">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLP2355</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="output"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LaserDSBoard-cache" part="TPL0401X">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPL0401X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SCL" type="BiDi"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="W" type="output"/>
+        <pin num="6" name="H" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LaserDSBoard-cache" part="USB">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vbus" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield_1" type="passive"/>
+        <pin num="6" name="Shield_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="VR">
+      <description>VARISTANCE</description>
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">VR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FE" part="VREF">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">VREF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vref" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="LaserDSBoard-rescue">
+      <uri>D:\work\FaboolDSPcba\LaserDSBoard\LaserDSBoard-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="FE">
+      <uri>D:\work\FaboolDSPcba\LaserDSBoard\FE.lib</uri>
+    </library>
+    <library logical="LaserDSBoard-cache">
+      <uri>D:\work\FaboolDSPcba\LaserDSBoard\LaserDSBoard-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="X_DIR">
+      <node ref="U3" pin="9"/>
+      <node ref="R59" pin="2"/>
+    </net>
+    <net code="2" name="X_STEP">
+      <node ref="R58" pin="2"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="3" name="Net-(R60-Pad1)">
+      <node ref="U17" pin="1"/>
+      <node ref="R60" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R58-Pad1)">
+      <node ref="U15" pin="1"/>
+      <node ref="R58" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R59-Pad1)">
+      <node ref="R59" pin="1"/>
+      <node ref="U16" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R63-Pad2)">
+      <node ref="R63" pin="2"/>
+      <node ref="U11" pin="7"/>
+      <node ref="U19" pin="4"/>
+    </net>
+    <net code="7" name="Y_DIR">
+      <node ref="U3" pin="25"/>
+      <node ref="R56" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R62-Pad2)">
+      <node ref="U19" pin="3"/>
+      <node ref="R62" pin="2"/>
+      <node ref="U11" pin="6"/>
+    </net>
+    <net code="9" name="Y_STEP">
+      <node ref="R55" pin="2"/>
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="10" name="Net-(R57-Pad1)">
+      <node ref="U14" pin="1"/>
+      <node ref="R57" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R55-Pad1)">
+      <node ref="U12" pin="1"/>
+      <node ref="R55" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R56-Pad1)">
+      <node ref="R56" pin="1"/>
+      <node ref="U13" pin="1"/>
+    </net>
+    <net code="13" name="SCL0">
+      <node ref="U5" pin="3"/>
+      <node ref="R31" pin="2"/>
+      <node ref="U3" pin="58"/>
+    </net>
+    <net code="14" name="SDA0">
+      <node ref="U5" pin="2"/>
+      <node ref="U3" pin="59"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="15" name="SCL1">
+      <node ref="R54" pin="2"/>
+      <node ref="U11" pin="3"/>
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="16" name="SDA1">
+      <node ref="R53" pin="2"/>
+      <node ref="U3" pin="40"/>
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="17" name="D_SWITCH">
+      <node ref="C49" pin="1"/>
+      <node ref="U3" pin="22"/>
+      <node ref="R24" pin="2"/>
+      <node ref="U18" pin="5"/>
+    </net>
+    <net code="18" name="Net-(U18-Pad4)">
+      <node ref="U18" pin="4"/>
+    </net>
+    <net code="19" name="Net-(D9-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="22" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="24" name="Net-(R17-Pad2)">
+      <node ref="U7" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="25" name="Net-(D8-Pad1)">
+      <node ref="D8" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="28" name="Net-(U8-Pad4)">
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="29" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="30" name="Net-(U10-Pad4)">
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="31" name="Net-(U9-Pad4)">
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="32" name="Net-(D8-Pad2)">
+      <node ref="J9" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="33" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="34" name="Net-(D6-Pad2)">
+      <node ref="U8" pin="3"/>
+      <node ref="D6" pin="2"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="35" name="Net-(C10-Pad1)">
+      <node ref="U3" pin="47"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="36" name="Net-(C9-Pad1)">
+      <node ref="U3" pin="31"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="37" name="BOOT0">
+      <node ref="R29" pin="2"/>
+      <node ref="U3" pin="60"/>
+    </net>
+    <net code="38" name="TDO">
+      <node ref="R12" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="U3" pin="55"/>
+    </net>
+    <net code="39" name="TCK">
+      <node ref="J1" pin="4"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U3" pin="49"/>
+    </net>
+    <net code="40" name="TMS">
+      <node ref="J1" pin="2"/>
+      <node ref="U3" pin="46"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="41" name="TDI">
+      <node ref="J1" pin="8"/>
+      <node ref="U3" pin="50"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="42" name="USBM">
+      <node ref="U3" pin="44"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="43" name="USBP">
+      <node ref="U3" pin="45"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="44" name="RESET">
+      <node ref="U3" pin="7"/>
+      <node ref="C12" pin="1"/>
+      <node ref="J1" pin="10"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="45" name="OSC_OUT">
+      <node ref="X1" pin="3"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="46" name="VDDA">
+      <node ref="C14" pin="1"/>
+      <node ref="U3" pin="13"/>
+      <node ref="C16" pin="1"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="47" name="OSC_IN">
+      <node ref="U3" pin="5"/>
+      <node ref="C11" pin="1"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="48" name="D+3.3V">
+      <node ref="C22" pin="1"/>
+      <node ref="U22" pin="6"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U8" pin="6"/>
+      <node ref="U10" pin="6"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="TAB"/>
+      <node ref="C21" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="R54" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="U11" pin="1"/>
+      <node ref="L4" pin="1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U3" pin="32"/>
+      <node ref="U3" pin="64"/>
+      <node ref="U3" pin="19"/>
+      <node ref="U3" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="U18" pin="6"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U3" pin="48"/>
+    </net>
+    <net code="49" name="OSC32_OUT">
+      <node ref="C20" pin="1"/>
+      <node ref="X2" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="50" name="OSC32_IN">
+      <node ref="C15" pin="1"/>
+      <node ref="X2" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="51" name="Y_LIMIT2">
+      <node ref="R23" pin="2"/>
+      <node ref="U10" pin="5"/>
+      <node ref="C48" pin="1"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="52" name="Net-(J4-Pad1)">
+      <node ref="R27" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="53" name="Net-(C33-Pad1)">
+      <node ref="R64" pin="1"/>
+      <node ref="R65" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="U19" pin="1"/>
+    </net>
+    <net code="54" name="A+12V">
+      <node ref="R65" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U21" pin="21"/>
+      <node ref="U25" pin="16"/>
+      <node ref="C5" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U25" pin="21"/>
+      <node ref="U21" pin="16"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U20" pin="21"/>
+      <node ref="C51" pin="2"/>
+      <node ref="U20" pin="16"/>
+      <node ref="C35" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="55" name="X_LIMIT2">
+      <node ref="U8" pin="5"/>
+      <node ref="R19" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="56" name="Net-(D3-Pad2)">
+      <node ref="R26" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="57" name="Net-(J2-Pad2)">
+      <node ref="VR2" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="58" name="LASER_OUT">
+      <node ref="U3" pin="39"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="59" name="Y_EN">
+      <node ref="R57" pin="2"/>
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="60" name="X_EN">
+      <node ref="R60" pin="2"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="61" name="Y_LIMIT1">
+      <node ref="C28" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="62" name="X_LIMIT1">
+      <node ref="R18" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="63" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+      <node ref="VR1" pin="2"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="64" name="Net-(R29-Pad1)">
+      <node ref="SW2" pin="2"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="65" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="66" name="GNDD">
+      <node ref="C28" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U17" pin="3"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U12" pin="3"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U16" pin="3"/>
+      <node ref="U15" pin="3"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U3" pin="18"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="6"/>
+      <node ref="C13" pin="2"/>
+      <node ref="X1" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="3"/>
+      <node ref="X1" pin="4"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U3" pin="63"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U14" pin="3"/>
+      <node ref="VR2" pin="1"/>
+      <node ref="VR1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="C49" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="67" name="Net-(D1-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="68" name="GNDA">
+      <node ref="U19" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="R71" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="U11" pin="5"/>
+      <node ref="C39" pin="2"/>
+      <node ref="U12" pin="4"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="U16" pin="4"/>
+      <node ref="R70" pin="2"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U17" pin="4"/>
+      <node ref="U19" pin="6"/>
+      <node ref="U13" pin="4"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="R73" pin="2"/>
+      <node ref="R75" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="L1" pin="4"/>
+      <node ref="J10" pin="2"/>
+      <node ref="U22" pin="3"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C35" pin="1"/>
+      <node ref="R76" pin="2"/>
+      <node ref="R74" pin="2"/>
+      <node ref="J11" pin="3"/>
+      <node ref="U20" pin="13"/>
+      <node ref="U20" pin="PAD"/>
+      <node ref="U23" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U21" pin="PAD"/>
+      <node ref="U20" pin="24"/>
+      <node ref="R37" pin="2"/>
+      <node ref="U14" pin="4"/>
+      <node ref="C56" pin="2"/>
+      <node ref="U25" pin="13"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C54" pin="2"/>
+      <node ref="R35" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="U25" pin="24"/>
+      <node ref="R41" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U21" pin="13"/>
+      <node ref="J7" pin="2"/>
+      <node ref="R64" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="U21" pin="24"/>
+      <node ref="U24" pin="2"/>
+      <node ref="U25" pin="PAD"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U15" pin="4"/>
+      <node ref="C51" pin="1"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="69" name="Net-(R40-Pad1)">
+      <node ref="U25" pin="17"/>
+      <node ref="R40" pin="1"/>
+    </net>
+    <net code="70" name="Y_DIR_A">
+      <node ref="U25" pin="14"/>
+      <node ref="U20" pin="14"/>
+      <node ref="U13" pin="5"/>
+    </net>
+    <net code="71" name="Y_STEP_A">
+      <node ref="U20" pin="11"/>
+      <node ref="U25" pin="11"/>
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="72" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2"/>
+      <node ref="U25" pin="7"/>
+      <node ref="U25" pin="9"/>
+    </net>
+    <net code="73" name="Net-(C53-Pad1)">
+      <node ref="U25" pin="3"/>
+      <node ref="C53" pin="1"/>
+    </net>
+    <net code="74" name="Net-(C55-Pad1)">
+      <node ref="C55" pin="1"/>
+      <node ref="U25" pin="1"/>
+    </net>
+    <net code="75" name="Net-(U16-Pad5)">
+      <node ref="U21" pin="14"/>
+      <node ref="U16" pin="5"/>
+    </net>
+    <net code="76" name="Net-(R75-Pad1)">
+      <node ref="R75" pin="1"/>
+      <node ref="U20" pin="17"/>
+    </net>
+    <net code="77" name="Net-(U15-Pad5)">
+      <node ref="U15" pin="5"/>
+      <node ref="U21" pin="11"/>
+    </net>
+    <net code="78" name="Net-(R74-Pad1)">
+      <node ref="U21" pin="20"/>
+      <node ref="R74" pin="1"/>
+    </net>
+    <net code="79" name="Net-(R71-Pad1)">
+      <node ref="U21" pin="8"/>
+      <node ref="R71" pin="1"/>
+    </net>
+    <net code="80" name="Net-(C34-Pad1)">
+      <node ref="U21" pin="4"/>
+      <node ref="C34" pin="1"/>
+    </net>
+    <net code="81" name="Net-(C45-Pad2)">
+      <node ref="U21" pin="2"/>
+      <node ref="C45" pin="2"/>
+    </net>
+    <net code="82" name="+12P">
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="83" name="GNDPWR">
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="3"/>
+      <node ref="L1" pin="3"/>
+    </net>
+    <net code="84" name="Net-(D5-Pad2)">
+      <node ref="J5" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="85" name="Net-(R67-Pad2)">
+      <node ref="R67" pin="2"/>
+      <node ref="U20" pin="7"/>
+      <node ref="U20" pin="9"/>
+    </net>
+    <net code="86" name="Net-(C40-Pad1)">
+      <node ref="U20" pin="3"/>
+      <node ref="C40" pin="1"/>
+    </net>
+    <net code="87" name="Net-(R37-Pad1)">
+      <node ref="R37" pin="1"/>
+      <node ref="U25" pin="20"/>
+    </net>
+    <net code="88" name="Net-(C55-Pad2)">
+      <node ref="U25" pin="2"/>
+      <node ref="C55" pin="2"/>
+    </net>
+    <net code="89" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1"/>
+      <node ref="U25" pin="8"/>
+    </net>
+    <net code="90" name="Net-(C50-Pad1)">
+      <node ref="C50" pin="1"/>
+      <node ref="U25" pin="4"/>
+    </net>
+    <net code="91" name="Net-(R51-Pad2)">
+      <node ref="U22" pin="1"/>
+      <node ref="R51" pin="2"/>
+    </net>
+    <net code="92" name="Net-(J6-Pad3)">
+      <node ref="R51" pin="1"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="93" name="Net-(U22-Pad4)">
+      <node ref="U22" pin="4"/>
+    </net>
+    <net code="94" name="WATER_FLOW">
+      <node ref="U3" pin="33"/>
+      <node ref="R32" pin="2"/>
+      <node ref="U22" pin="5"/>
+    </net>
+    <net code="95" name="Net-(D9-Pad2)">
+      <node ref="J10" pin="1"/>
+      <node ref="U18" pin="3"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="96" name="Net-(R9-Pad2)">
+      <node ref="U18" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="97" name="Y1_MOT_2B">
+      <node ref="J14" pin="1"/>
+      <node ref="U20" pin="22"/>
+    </net>
+    <net code="98" name="Net-(J11-Pad1)">
+      <node ref="J11" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="99" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="100" name="Y_EN_A">
+      <node ref="U20" pin="23"/>
+      <node ref="U14" pin="5"/>
+      <node ref="R66" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="U25" pin="23"/>
+    </net>
+    <net code="101" name="Y1_MOT_2A">
+      <node ref="J14" pin="2"/>
+      <node ref="U20" pin="19"/>
+    </net>
+    <net code="102" name="X_REF">
+      <node ref="U23" pin="5"/>
+      <node ref="J13" pin="1"/>
+      <node ref="U21" pin="12"/>
+      <node ref="C47" pin="1"/>
+    </net>
+    <net code="103" name="Net-(R39-Pad2)">
+      <node ref="U23" pin="6"/>
+      <node ref="U24" pin="6"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="104" name="Y2_MOT_1B">
+      <node ref="J16" pin="4"/>
+      <node ref="U25" pin="15"/>
+    </net>
+    <net code="105" name="Y2_MOT_1A">
+      <node ref="J16" pin="3"/>
+      <node ref="U25" pin="18"/>
+    </net>
+    <net code="106" name="Y2_MOT_2A">
+      <node ref="J16" pin="2"/>
+      <node ref="U25" pin="19"/>
+    </net>
+    <net code="107" name="Y2_MOT_2B">
+      <node ref="U25" pin="22"/>
+      <node ref="J16" pin="1"/>
+    </net>
+    <net code="108" name="Y1_MOT_1B">
+      <node ref="J14" pin="4"/>
+      <node ref="U20" pin="15"/>
+    </net>
+    <net code="109" name="Y1_MOT_1A">
+      <node ref="U20" pin="18"/>
+      <node ref="J14" pin="3"/>
+    </net>
+    <net code="110" name="Net-(U3-Pad23)">
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="111" name="Net-(U3-Pad17)">
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="112" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="113" name="Net-(U3-Pad42)">
+      <node ref="U3" pin="42"/>
+    </net>
+    <net code="114" name="Net-(U3-Pad43)">
+      <node ref="U3" pin="43"/>
+    </net>
+    <net code="115" name="Net-(U3-Pad26)">
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="116" name="Net-(U3-Pad61)">
+      <node ref="U3" pin="61"/>
+    </net>
+    <net code="117" name="Net-(U3-Pad62)">
+      <node ref="U3" pin="62"/>
+    </net>
+    <net code="118" name="Net-(U3-Pad29)">
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="119" name="Net-(U3-Pad30)">
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="120" name="Net-(U3-Pad36)">
+      <node ref="U3" pin="36"/>
+    </net>
+    <net code="121" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="122" name="Net-(U3-Pad38)">
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="123" name="Net-(U3-Pad51)">
+      <node ref="U3" pin="51"/>
+    </net>
+    <net code="124" name="Net-(U3-Pad52)">
+      <node ref="U3" pin="52"/>
+    </net>
+    <net code="125" name="Net-(U3-Pad53)">
+      <node ref="U3" pin="53"/>
+    </net>
+    <net code="126" name="Net-(U3-Pad35)">
+      <node ref="U3" pin="35"/>
+    </net>
+    <net code="127" name="Net-(U3-Pad57)">
+      <node ref="U3" pin="57"/>
+    </net>
+    <net code="128" name="Net-(U3-Pad56)">
+      <node ref="U3" pin="56"/>
+    </net>
+    <net code="129" name="Net-(U3-Pad34)">
+      <node ref="U3" pin="34"/>
+    </net>
+    <net code="130" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="131" name="Net-(U3-Pad54)">
+      <node ref="U3" pin="54"/>
+    </net>
+    <net code="132" name="Net-(U3-Pad27)">
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="133" name="Net-(C41-Pad1)">
+      <node ref="C41" pin="1"/>
+      <node ref="U21" pin="3"/>
+    </net>
+    <net code="134" name="A+3.3V">
+      <node ref="C4" pin="1"/>
+      <node ref="U17" pin="6"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U12" pin="6"/>
+      <node ref="U15" pin="6"/>
+      <node ref="U16" pin="6"/>
+      <node ref="R62" pin="1"/>
+      <node ref="R63" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U13" pin="6"/>
+      <node ref="U14" pin="6"/>
+      <node ref="J6" pin="1"/>
+      <node ref="U20" pin="10"/>
+      <node ref="U20" pin="6"/>
+      <node ref="U20" pin="5"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U25" pin="10"/>
+      <node ref="U25" pin="6"/>
+      <node ref="U25" pin="5"/>
+      <node ref="U23" pin="1"/>
+      <node ref="U24" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U21" pin="10"/>
+      <node ref="U21" pin="6"/>
+      <node ref="U21" pin="5"/>
+      <node ref="R33" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="U1" pin="TAB"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R66" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="R67" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="R39" pin="1"/>
+      <node ref="R69" pin="1"/>
+      <node ref="U11" pin="8"/>
+      <node ref="U19" pin="5"/>
+      <node ref="C43" pin="1"/>
+      <node ref="R68" pin="1"/>
+    </net>
+    <net code="135" name="X_MOT_2A">
+      <node ref="U21" pin="19"/>
+      <node ref="J15" pin="2"/>
+    </net>
+    <net code="136" name="Net-(R70-Pad1)">
+      <node ref="U20" pin="8"/>
+      <node ref="R70" pin="1"/>
+    </net>
+    <net code="137" name="VBUS">
+      <node ref="U2" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="138" name="Net-(R76-Pad1)">
+      <node ref="R76" pin="1"/>
+      <node ref="U21" pin="17"/>
+    </net>
+    <net code="139" name="Net-(C45-Pad1)">
+      <node ref="U21" pin="1"/>
+      <node ref="C45" pin="1"/>
+    </net>
+    <net code="140" name="Net-(C44-Pad2)">
+      <node ref="U20" pin="2"/>
+      <node ref="C44" pin="2"/>
+    </net>
+    <net code="141" name="Net-(C44-Pad1)">
+      <node ref="U20" pin="1"/>
+      <node ref="C44" pin="1"/>
+    </net>
+    <net code="142" name="Net-(D2-Pad2)">
+      <node ref="R25" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="143" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="144" name="A+5V">
+      <node ref="U6" pin="6"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="TAB"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="145" name="Net-(R38-Pad2)">
+      <node ref="U5" pin="7"/>
+      <node ref="U24" pin="4"/>
+      <node ref="R38" pin="2"/>
+      <node ref="U23" pin="4"/>
+    </net>
+    <net code="146" name="Net-(C32-Pad1)">
+      <node ref="C32" pin="1"/>
+      <node ref="U20" pin="4"/>
+    </net>
+    <net code="147" name="Net-(R73-Pad1)">
+      <node ref="U20" pin="20"/>
+      <node ref="R73" pin="1"/>
+    </net>
+    <net code="148" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="149" name="X_MOT_1B">
+      <node ref="U21" pin="15"/>
+      <node ref="J15" pin="4"/>
+    </net>
+    <net code="150" name="X_MOT_2B">
+      <node ref="U21" pin="22"/>
+      <node ref="J15" pin="1"/>
+    </net>
+    <net code="151" name="X_MOT_1A">
+      <node ref="J15" pin="3"/>
+      <node ref="U21" pin="18"/>
+    </net>
+    <net code="152" name="Net-(R36-Pad2)">
+      <node ref="U5" pin="6"/>
+      <node ref="U24" pin="3"/>
+      <node ref="R36" pin="2"/>
+      <node ref="U23" pin="3"/>
+    </net>
+    <net code="153" name="Net-(R68-Pad2)">
+      <node ref="U21" pin="23"/>
+      <node ref="R68" pin="2"/>
+      <node ref="U17" pin="5"/>
+    </net>
+    <net code="154" name="Y_REF">
+      <node ref="J17" pin="1"/>
+      <node ref="C56" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="U20" pin="12"/>
+      <node ref="J12" pin="1"/>
+      <node ref="U25" pin="12"/>
+      <node ref="U24" pin="5"/>
+    </net>
+    <net code="155" name="Net-(R69-Pad2)">
+      <node ref="U21" pin="9"/>
+      <node ref="R69" pin="2"/>
+      <node ref="U21" pin="7"/>
+    </net>
+    <net code="156" name="Net-(J9-Pad3)">
+      <node ref="J9" pin="3"/>
+    </net>
+    <net code="157" name="Net-(J8-Pad3)">
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="158" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="159" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="160" name="Net-(J11-Pad2)">
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="161" name="Net-(J10-Pad3)">
+      <node ref="J10" pin="3"/>
+    </net>
+  </nets>
+</export>

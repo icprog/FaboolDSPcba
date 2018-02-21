@@ -1,0 +1,365 @@
+
+(rules PCB LaserDSBoard_20180215
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 99)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 3.6)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 100.0)
+      (against_preferred_direction_trace_costs 100.0)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 100.0)
+      (against_preferred_direction_trace_costs 100.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.4)
+    )
+  )
+  (rule
+    (width 254.0)
+    (clear 127.2)
+    (clear 127.0 (type smd_to_turn_gap))
+    (clear 254.2 (type default_12V))
+    (clear 152.6 (type default_3v3))
+    (clear 254.2 (type default_5v))
+    (clear 254.2 (type default_motor))
+    (clear 254.2 (type 12V_12V))
+    (clear 254.2 (type 12V_3v3))
+    (clear 254.2 (type 12V_5v))
+    (clear 254.2 (type 12V_motor))
+    (clear 254.2 (type 12V_smd))
+    (clear 254.2 (type 12V_"kicad_default"))
+    (clear 254.2 (type 12V_signal))
+    (clear 152.6 (type 3v3_3v3))
+    (clear 254.2 (type 3v3_5v))
+    (clear 254.2 (type 3v3_motor))
+    (clear 152.6 (type 3v3_smd))
+    (clear 152.6 (type 3v3_"kicad_default"))
+    (clear 152.6 (type 3v3_signal))
+    (clear 254.2 (type 5v_5v))
+    (clear 254.2 (type 5v_motor))
+    (clear 254.2 (type 5v_smd))
+    (clear 254.2 (type 5v_"kicad_default"))
+    (clear 254.2 (type 5v_signal))
+    (clear 254.2 (type motor_motor))
+    (clear 254.2 (type motor_smd))
+    (clear 254.2 (type motor_"kicad_default"))
+    (clear 254.2 (type motor_signal))
+    (clear 31.8 (type smd_smd))
+  )
+  (padstack "Via[0-3]_500.38:335.28_um"
+    (shape
+      (circle F.Cu 500.4 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 500.4 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 500.4 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 500.4 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_1143:889_um"
+    (shape
+      (circle F.Cu 1143.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 1143.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 1143.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1143.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_599.44:398.78_um"
+    (shape
+      (circle F.Cu 599.4 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 599.4 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 599.4 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 599.4 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_800.1:500.38_um"
+    (shape
+      (circle F.Cu 800.2 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 800.2 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 800.2 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.2 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_889:635_um"
+    (shape
+      (circle F.Cu 889.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 889.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 889.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 889.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_500.38:335.28_um" "Via[0-3]_500.38:335.28_um" default
+  )
+  (via 
+    "Via[0-3]_1143:889_um" "Via[0-3]_1143:889_um" default
+  )
+  (via 
+    "Via[0-3]_599.44:398.78_um" "Via[0-3]_599.44:398.78_um" default
+  )
+  (via 
+    "Via[0-3]_800.1:500.38_um" "Via[0-3]_800.1:500.38_um" default
+  )
+  (via 
+    "Via[0-3]_889:635_um" "Via[0-3]_889:635_um" default
+  )
+  (via 
+    "Via[0-3]_500.38:335.28_um-kicad_default" "Via[0-3]_500.38:335.28_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_1143:889_um-kicad_default" "Via[0-3]_1143:889_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_599.44:398.78_um-kicad_default" "Via[0-3]_599.44:398.78_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_800.1:500.38_um-kicad_default" "Via[0-3]_800.1:500.38_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_889:635_um-kicad_default" "Via[0-3]_889:635_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_500.38:335.28_um-12V" "Via[0-3]_500.38:335.28_um" 12V
+  )
+  (via 
+    "Via[0-3]_1143:889_um-12V" "Via[0-3]_1143:889_um" 12V
+  )
+  (via 
+    "Via[0-3]_599.44:398.78_um-12V" "Via[0-3]_599.44:398.78_um" 12V
+  )
+  (via 
+    "Via[0-3]_800.1:500.38_um-12V" "Via[0-3]_800.1:500.38_um" 12V
+  )
+  (via 
+    "Via[0-3]_889:635_um-12V" "Via[0-3]_889:635_um" 12V
+  )
+  (via 
+    "Via[0-3]_500.38:335.28_um-3v3" "Via[0-3]_500.38:335.28_um" 3v3
+  )
+  (via 
+    "Via[0-3]_1143:889_um-3v3" "Via[0-3]_1143:889_um" 3v3
+  )
+  (via 
+    "Via[0-3]_599.44:398.78_um-3v3" "Via[0-3]_599.44:398.78_um" 3v3
+  )
+  (via 
+    "Via[0-3]_800.1:500.38_um-3v3" "Via[0-3]_800.1:500.38_um" 3v3
+  )
+  (via 
+    "Via[0-3]_889:635_um-3v3" "Via[0-3]_889:635_um" 3v3
+  )
+  (via 
+    "Via[0-3]_500.38:335.28_um-5v" "Via[0-3]_500.38:335.28_um" 5v
+  )
+  (via 
+    "Via[0-3]_1143:889_um-5v" "Via[0-3]_1143:889_um" 5v
+  )
+  (via 
+    "Via[0-3]_599.44:398.78_um-5v" "Via[0-3]_599.44:398.78_um" 5v
+  )
+  (via 
+    "Via[0-3]_800.1:500.38_um-5v" "Via[0-3]_800.1:500.38_um" 5v
+  )
+  (via 
+    "Via[0-3]_889:635_um-5v" "Via[0-3]_889:635_um" 5v
+  )
+  (via 
+    "Via[0-3]_500.38:335.28_um-motor" "Via[0-3]_500.38:335.28_um" motor
+  )
+  (via 
+    "Via[0-3]_1143:889_um-motor" "Via[0-3]_1143:889_um" motor
+  )
+  (via 
+    "Via[0-3]_599.44:398.78_um-motor" "Via[0-3]_599.44:398.78_um" motor
+  )
+  (via 
+    "Via[0-3]_800.1:500.38_um-motor" "Via[0-3]_800.1:500.38_um" motor
+  )
+  (via 
+    "Via[0-3]_889:635_um-motor" "Via[0-3]_889:635_um" motor
+  )
+  (via 
+    "Via[0-3]_500.38:335.28_um-signal" "Via[0-3]_500.38:335.28_um" signal
+  )
+  (via 
+    "Via[0-3]_1143:889_um-signal" "Via[0-3]_1143:889_um" signal
+  )
+  (via 
+    "Via[0-3]_599.44:398.78_um-signal" "Via[0-3]_599.44:398.78_um" signal
+  )
+  (via 
+    "Via[0-3]_800.1:500.38_um-signal" "Via[0-3]_800.1:500.38_um" signal
+  )
+  (via 
+    "Via[0-3]_889:635_um-signal" "Via[0-3]_889:635_um" signal
+  )
+  (via_rule
+    default "Via[0-3]_500.38:335.28_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_500.38:335.28_um-kicad_default"
+  )
+  (via_rule
+    12V "Via[0-3]_1143:889_um-12V"
+  )
+  (via_rule
+    3v3 "Via[0-3]_599.44:398.78_um-3v3"
+  )
+  (via_rule
+    5v "Via[0-3]_800.1:500.38_um-5v"
+  )
+  (via_rule
+    motor "Via[0-3]_889:635_um-motor"
+  )
+  (via_rule
+    signal "Via[0-3]_500.38:335.28_um-signal"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GNDD D+3.3V GNDA BOOT0 "D_SWITCH" "LASER_OUT" "OSC32_IN" "OSC32_OUT"
+    "OSC_IN" "OSC_OUT" RESET SCL0 SCL1 SDA0 SDA1 TCK
+    TDI TDO TMS USBM USBP VBUS VDDA "WATER_FLOW"
+    "X_DIR" "X_EN" "X_LIMIT1" "X_LIMIT2" "X_MOT_1A" "X_MOT_1B" "X_MOT_2A" "X_MOT_2B"
+    "X_REF" "X_STEP" "Y_DIR" "Y_EN" "Y_LIMIT1" "Y_LIMIT2" "Y_REF" "Y_STEP"
+    A+12V A+3.3V A+5V "Net-(C9-Pad1)" "Net-(C10-Pad1)" "Net-(C32-Pad1)" "Net-(C33-Pad1)" "Net-(C34-Pad1)"
+    "Net-(C40-Pad1)" "Net-(C41-Pad1)" "Net-(C44-Pad1)" "Net-(C44-Pad2)" "Net-(C45-Pad1)" "Net-(C45-Pad2)" "Net-(C50-Pad1)" "Net-(C53-Pad1)"
+    "Net-(C55-Pad1)" "Net-(C55-Pad2)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D5-Pad1)"
+    "Net-(D6-Pad2)" "Net-(D6-Pad1)" "Net-(D7-Pad2)" "Net-(D7-Pad1)" "Net-(D8-Pad2)" "Net-(D8-Pad1)" "Net-(D9-Pad2)" "Net-(D9-Pad1)"
+    "Net-(J2-Pad2)" "Net-(J2-Pad3)" GNDPWR "Net-(J4-Pad1)" "Net-(J6-Pad3)" "Net-(J11-Pad1)" "Y1_MOT_2B" "Y1_MOT_2A"
+    "Y1_MOT_1A" "Y1_MOT_1B" "Y2_MOT_2B" "Y2_MOT_2A" "Y2_MOT_1A" "Y2_MOT_1B" "Net-(R1-Pad1)" "Net-(R6-Pad1)"
+    "Net-(R9-Pad2)" "Net-(R10-Pad2)" "Net-(R15-Pad2)" "Net-(R16-Pad2)" "Net-(R17-Pad2)" "Net-(R29-Pad1)" "Net-(R33-Pad2)" "Y_EN_A"
+    "Net-(R35-Pad1)" "Net-(R36-Pad2)" "Net-(R37-Pad1)" "Net-(R38-Pad2)" "Net-(R39-Pad2)" "Net-(R40-Pad1)" "Net-(R51-Pad2)" "Net-(R55-Pad1)"
+    "Net-(R56-Pad1)" "Net-(R57-Pad1)" "Net-(R58-Pad1)" "Net-(R59-Pad1)" "Net-(R60-Pad1)" "Net-(R62-Pad2)" "Net-(R63-Pad2)" "Net-(R67-Pad2)"
+    "Net-(R68-Pad2)" "Net-(R69-Pad2)" "Net-(R70-Pad1)" "Net-(R71-Pad1)" "Net-(R73-Pad1)" "Net-(R74-Pad1)" "Net-(R75-Pad1)" "Net-(R76-Pad1)"
+    "Y_STEP_A" "Y_DIR_A" "Net-(U15-Pad5)" "Net-(U16-Pad5)" "Net-(J1-Pad7)" "Net-(J5-Pad3)" "Net-(J7-Pad3)" "Net-(J8-Pad3)"
+    "Net-(J9-Pad3)" "Net-(J10-Pad3)" "Net-(J11-Pad2)" "Net-(U3-Pad2)" "Net-(U3-Pad11)" "Net-(U3-Pad14)" "Net-(U3-Pad17)" "Net-(U3-Pad23)"
+    "Net-(U3-Pad26)" "Net-(U3-Pad27)" "Net-(U3-Pad29)" "Net-(U3-Pad30)" "Net-(U3-Pad34)" "Net-(U3-Pad35)" "Net-(U3-Pad36)" "Net-(U3-Pad38)"
+    "Net-(U3-Pad42)" "Net-(U3-Pad43)" "Net-(U3-Pad51)" "Net-(U3-Pad52)" "Net-(U3-Pad53)" "Net-(U3-Pad54)" "Net-(U3-Pad56)" "Net-(U3-Pad57)"
+    "Net-(U3-Pad61)" "Net-(U3-Pad62)" "Net-(U7-Pad4)" "Net-(U8-Pad4)" "Net-(U9-Pad4)" "Net-(U9-Pad6)" "Net-(U10-Pad4)" "Net-(U18-Pad4)"
+    "Net-(U22-Pad4)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class 12V
+    +12P
+    (clearance_class 12V)
+    (via_rule 12V)
+    (rule
+      (width 1524.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class 3v3
+    (clearance_class 3v3)
+    (via_rule 3v3)
+    (rule
+      (width 381.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class 5v
+    (clearance_class 5v)
+    (via_rule 5v)
+    (rule
+      (width 508.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class motor
+    (clearance_class motor)
+    (via_rule motor)
+    (rule
+      (width 1016.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class signal
+    (clearance_class signal)
+    (via_rule signal)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
