@@ -1,4 +1,4 @@
-update=2018/04/04 11:24:33
+update=2018/04/25 10:13:57
 version=1
 last_client=kicad
 [cvpcb]
@@ -46,16 +46,6 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=smartDIYs
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -91,3 +81,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=FE
 LibName31=opto
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
