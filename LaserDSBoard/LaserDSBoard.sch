@@ -37,8 +37,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "LaserDSBoard"
-Date "2018-04-10"
-Rev "2.0.0"
+Date "2018-05-19"
+Rev "2.0.1"
 Comp "smartDIYs Co.,Ltd."
 Comment1 "http://www.smartdiys.com/"
 Comment2 ""
@@ -1481,14 +1481,12 @@ F 3 "" H 14850 8500 60  0001 C CNN
 	1    14850 8500
 	0    1    1    0   
 $EndComp
-Text GLabel 7350 6300 1    60   Input ~ 0
-A+3.3V
 $Comp
 L R-RESCUE-LaserDSBoard R51
 U 1 1 5A354904
 P 8950 6400
 F 0 "R51" V 9030 6400 50  0000 C CNN
-F 1 "220R" V 8850 6400 50  0000 C CNN
+F 1 "160R" V 8850 6400 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" H 8950 6400 60  0001 C CNN
 F 3 "" H 8950 6400 60  0001 C CNN
 	1    8950 6400
@@ -5100,4 +5098,6 @@ Wire Notes Line
 	5450 11250 5450 11000
 Wire Notes Line
 	5450 11000 4650 11000
+Text GLabel 7350 6300 1    60   Input ~ 0
+A+5V
 $EndSCHEMATC
